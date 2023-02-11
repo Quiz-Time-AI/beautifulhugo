@@ -12,8 +12,8 @@ body {
 }
 @media (prefers-color-scheme: dark) {
   body {
-    background: black;
-    color: white;
+    background: white;
+    color: #90a4ae;
   }
 }
 .container[role=main] {
@@ -41,7 +41,7 @@ p a {
 }
 @media (prefers-color-scheme: dark) {
   p a {
-    color: #50afff;
+    color: #F48C06;
   }
 }
 
@@ -54,7 +54,7 @@ a {
 }
 @media (prefers-color-scheme: dark) {
   a {
-    color: #50afff;
+    color: #F48C06;
   }
 }
 a:hover,
@@ -70,7 +70,7 @@ blockquote p:first-child {
 }
 @media (prefers-color-scheme: dark) {
   blockquote {
-    border-left: 5px solid #444;
+    border-left: 5px solid #2F327D;
   }
 }
 hr.small {
@@ -123,7 +123,7 @@ div.panel-body a.list-group-item.view-all {
   background: #0085a1;
 }
 img::selection, img::-moz-selection {
-  color: white;
+  color: #F48C06;
   background: transparent;
 }
 
@@ -162,8 +162,8 @@ figure:not(.dark) img, img.white {
 }
 @media (prefers-color-scheme: dark) {
   .navbar-custom {
-    background: #505050;
-    border-bottom: 1px solid #AAA;
+    background: #2F327D;
+    border-bottom: 1px solid #F48C06;
   }
 }
 
@@ -182,7 +182,7 @@ figure:not(.dark) img, img.white {
 @media (prefers-color-scheme: dark) {
   .navbar-custom .navbar-brand,
   .navbar-custom .nav li a {
-    color: #b0b0b0;
+    color: #F48C06;
   }
 }
 
@@ -340,10 +340,10 @@ figure:not(.dark) img, img.white {
     background: #666;
   }
   .navbar-custom .nav .navlinks-container .navlinks-children a {
-    border: 1px solid #AAA;
+    border: 1px solid #F48C06;
   }
   .navbar-custom .nav .navlinks-container .navlinks-children a {
-    background: #444;
+    background: #2F327D;
   }
 }
 
@@ -390,11 +390,11 @@ footer .theme-by {
 
 @media (prefers-color-scheme: dark) {
   footer {
-    background: #444;
-    border-top: 1px #AAA solid;
+    background: #2F327D;
+    border-top: 1px #F48C06 solid;
   }
   footer a {
-    color: #AAA;
+    color: #F48C06;
   }
 }
 
@@ -420,7 +420,7 @@ footer .theme-by {
 }
 @media (prefers-color-scheme: dark) {
   .post-preview a {
-    color: #AAA;
+    color: #F48C06;
   }
 }
 
@@ -660,7 +660,7 @@ footer .theme-by {
   background: #FCFCFC;
   margin: 0 0 40px;
   padding: 20px 0;
-  box-shadow: 0 0 5px #AAA;
+  box-shadow: 0 0 5px #F48C06;
 }
 /* Many phones are 320 or 360px, so make sure images are a proper aspect ratio in those cases */
 .header-section.has-img .intro-header.no-img {
@@ -726,8 +726,8 @@ footer .theme-by {
 
 @media (prefers-color-scheme: dark) {
 .pager li a {
-  background: #444;
-  color: white;
+  background: #2F327D;
+  color: #F48C06;
 }
 }
 
@@ -910,18 +910,18 @@ h4.see-also {
     color: #ccc;
   }
   .well {
-    background-color: #444;
+    background-color: #fff2e1;
   }
   .panel {
-    background-color: #222;
+    background-color: #fff2e1;
   }
   .list-group-item {
-    background-color: #333;
+    background-color: #2F327D;
   }
 
   pre.chroma {
     color: white;
-    background-color: #444;
+    background-color: #2F327D;
   }
   pre.chroma .k {
     color: #44AACC;
@@ -930,7 +930,7 @@ h4.see-also {
     color: #33CCCC;
   }
   pre.chroma .o {
-    color: #AAA;
+    color: #F48C06;
   }
   pre.chroma .nb {
     color: #00fee9;
